@@ -376,6 +376,14 @@ export default function App() {
         )}
 
       </div>
+
+      {/* FOOTER DISCLAIMER */}
+      <div style={{ borderTop: "1px solid #e2e4ea", marginTop: 48, padding: "20px 32px", textAlign: "center" }}>
+        <p style={{ fontSize: 11, color: "#9ca3af", lineHeight: 1.7, maxWidth: 720, margin: "0 auto" }}>
+          Ally is a demonstration product built for the Vibecode.law "Simplify Legal Advice" challenge. All memos, companies, and outputs are fictional and for illustrative purposes only. Nothing in this application constitutes legal advice. No legal content has been independently verified. Calloway Reed LLP is a fictional law firm. Human Generated — AI Assisted.
+        </p>
+      </div>
+
     </div>
   );
 }
